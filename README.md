@@ -42,19 +42,20 @@ Before getting started, ensure you have the following installed:
 3. **Accessing Superset:**:
    ```bash
    kubectl describe service superset | grep NodePort
-```
-connecting Clickhouse to Superset:
+   ```
+## connecting Clickhouse to Superset:
 
-    In Superset UI, navigate to Data > Databases.
-    Add a new database connection for Clickhouse using the provided connection string.
-Notes
+   In Superset UI, navigate to Data > Databases.
+   Add a new database connection for Clickhouse using the provided connection string.
+    
+## Notes
 
     Ensure Docker is running and accessible to Minikube for pulling images.
     Adjust YAML configurations for production deployments as necessary.
 
-Contact Information
+## Contact Information
 
-For any questions or assistance, please contact:
+### For any questions or assistance, please contact:
 
     Name: V D Panduranga Sai Guptha
     Email: saiguptha_v@srmap.edu.in
